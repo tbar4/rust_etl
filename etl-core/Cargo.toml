@@ -1,0 +1,10 @@
+[package]
+name = "etl-core"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+etl-models = { path = "../etl-models" }
+etl-utils = { path = "../etl-utils" }
+serde = { version = "1.0.219", features = ["derive"], optional = true }
+serde_json = "1.0.141"

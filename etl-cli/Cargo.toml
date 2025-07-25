@@ -1,0 +1,10 @@
+[package]
+name = "etl-cli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+clap = { version = "4.5.41", features = ["derive"] }
+etl-core = { path = "../etl-core" }
+etl-utils = { path = "../etl-utils" }
